@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Maven Central に直接届かない環境（社内ネットワークなど）で、社内のミラーを使うための設定例。
+     settings.xml にコピーして URL を書き換え、mvn -s settings.xml で実行する。
+     Maven Central に届く環境では不要（-s settings.xml を付けずに実行すればよい）。 -->
+<settings>
+  <mirrors>
+    <mirror>
+      <id>internal-proxy</id>
+      <mirrorOf>*</mirrorOf>
+      <url>https://your-maven-mirror.example.com</url>
+    </mirror>
+  </mirrors>
+</settings>

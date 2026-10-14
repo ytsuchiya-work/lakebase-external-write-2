@@ -1,8 +1,26 @@
+# 接続情報とシークレット（.env.sample をコピーして作る）
+.env
+
+# 環境固有の設定（settings.xml.sample をコピーして作る）
+java/settings.xml
+
+# 解説ドキュメントの生成用ファイルと画面キャプチャ（環境固有の値を含むため公開しない）
+docs/
+results/*.png
+
+# Python
+python/.venv/
+python/__pycache__/
+
+# Java / Maven
+java/target/
+
 # Compiled class file
 *.class
 
-# Log file
+# Log file（results/ の実行ログは残す）
 *.log
+!results/*.log
 
 # BlueJ files
 *.ctxt

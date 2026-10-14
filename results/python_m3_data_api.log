@@ -1,0 +1,16 @@
+created: write_test.dataapi_python_items
+schema cache refreshed in 0.0s
+inserted rows: 3
+--- after INSERT
+    {'id': 1, 'name': 'apple', 'quantity': 10, 'updated_at': '2026-10-14T02:54:22.708883+00:00'}
+    {'id': 2, 'name': 'banana', 'quantity': 20, 'updated_at': '2026-10-14T02:54:22.708883+00:00'}
+    {'id': 3, 'name': 'cherry', 'quantity': 30, 'updated_at': '2026-10-14T02:54:22.708883+00:00'}
+updated rows: 1
+--- after UPDATE
+    {'id': 1, 'name': 'apple', 'quantity': 10, 'updated_at': '2026-10-14T02:54:22.708883+00:00'}
+    {'id': 2, 'name': 'banana', 'quantity': 99, 'updated_at': '2026-10-14T02:54:22.739729+00:00'}
+    {'id': 3, 'name': 'cherry', 'quantity': 30, 'updated_at': '2026-10-14T02:54:22.708883+00:00'}
+deleted rows: 1
+--- after DELETE
+    {'id': 1, 'name': 'apple', 'quantity': 10, 'updated_at': '2026-10-14T02:54:22.708883+00:00'}
+    {'id': 2, 'name': 'banana', 'quantity': 99, 'updated_at': '2026-10-14T02:54:22.739729+00:00'}

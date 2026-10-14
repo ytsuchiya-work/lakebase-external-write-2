@@ -1,0 +1,15 @@
+connected as: <SP_CLIENT_ID> / databricks_postgres
+created: write_test.sdk_java_items
+--- after INSERT
+    (1, apple, 10, 2026-10-14T02:54:27.543971Z)
+    (2, banana, 20, 2026-10-14T02:54:27.543971Z)
+    (3, cherry, 30, 2026-10-14T02:54:27.543971Z)
+updated rows: 1
+--- after UPDATE
+    (1, apple, 10, 2026-10-14T02:54:27.543971Z)
+    (2, banana, 99, 2026-10-14T02:54:27.579840Z)
+    (3, cherry, 30, 2026-10-14T02:54:27.543971Z)
+deleted rows: 1
+--- after DELETE
+    (1, apple, 10, 2026-10-14T02:54:27.543971Z)
+    (2, banana, 99, 2026-10-14T02:54:27.579840Z)

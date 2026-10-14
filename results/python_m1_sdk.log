@@ -1,0 +1,15 @@
+connected as: ('<SP_CLIENT_ID>', 'databricks_postgres')
+created: write_test.sdk_python_items
+--- after INSERT
+    (1, apple, 10, 2026-10-14T02:54:20.554895+00:00)
+    (2, banana, 20, 2026-10-14T02:54:20.554895+00:00)
+    (3, cherry, 30, 2026-10-14T02:54:20.554895+00:00)
+updated rows: 1
+--- after UPDATE
+    (1, apple, 10, 2026-10-14T02:54:20.554895+00:00)
+    (2, banana, 99, 2026-10-14T02:54:20.599307+00:00)
+    (3, cherry, 30, 2026-10-14T02:54:20.554895+00:00)
+deleted rows: 1
+--- after DELETE
+    (1, apple, 10, 2026-10-14T02:54:20.554895+00:00)
+    (2, banana, 99, 2026-10-14T02:54:20.599307+00:00)
